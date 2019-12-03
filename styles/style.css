@@ -29,12 +29,24 @@ body{
     
   }
   
-  input {
+  .input {
     background-color: #eee;
     border: none;
     padding: 12px 15px;
     margin: 8px 0;
     width: 100%;
+  }
+
+ .button{
+    border-radius: 5px;
+    border: 1px solid #041E42;
+    background-color: #041E42;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 12px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
   }
 
   p {
@@ -55,6 +67,19 @@ body{
     padding: 12px 12px;
     letter-spacing: 1px;
     transition: transform 80ms ease-in;
+  }
+
+  a {
+    border-radius: 5px;
+    border: 1px solid #041E42;
+    background-color: #041E42;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 12px;
+    letter-spacing: 1px;
+    transition: transform 80ms ease-in;
+    text-decoration: none;
   }
   
   button:active {
