@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EEC Student Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-in-container">
+            <form action='#'>
+                <h1>
+                    Sign in
+                </h1>
+                <input class="full-width-input" type="text" placeholder="Email">
+                <input class="full-width-input" type="password" placeholder="Password">
+                <button>Sign in</button>
+            </form>
+        </div>
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Already have an account?</h1>
+                    <button id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Don't have an account?</h1>
+                    <p>sign up to be able to track all of your submitted forms</p>
+                    <button id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+<script src="js/main.js" ></script>
+</html>
+
